@@ -62,7 +62,7 @@ nav a:hover{
 }
 
 .logo-circle {
-  background-color: rgba(172, 163, 163, 0.6);
+  background-color: rgba(100, 92, 92, 0.6);
   border-radius: 50%;
   padding: 30px;
   margin-bottom: 20px;
@@ -154,28 +154,32 @@ nav a:hover{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: rgb(57, 58, 59);
+  background-color: rgb(90, 87, 87);
  
   
 }
 .box{
-  width: 350px;
+  width: 250px;
   margin: 20px;
   border: 20px solid #ffffff;
   box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+  
 
+}
+html{
+  scroll-behavior: smooth;
 }
 .imbox{
   position: relative;
-  width: 100%;
-  height: 300px;
+  width: 80%;
+  height: 250px;
 }
 .imbox img{
   position: relative;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 300px;
+  width: 130%;
+  height: 250px;
   object-fit: cover;
 }
 .texte12{
@@ -195,12 +199,120 @@ nav a:hover{
 
 }
 
+.commender--cont{
+  background-color: aqua;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-weight: 700;
+  border-radius: 12px;
 
+}
+.texte12 a:hover{
+  background-color: rgb(255, 230, 0);
+  box-shadow: 10px 10px 10px rgb(104, 44, 44);
+  
+  
+}
+.mon--menu{
+  position: relative;
+  top: -300px;
+}
+.cont-menu11{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 2px solid rgb(255, 230, 0);
+  text-align: center;
+  justify-content: center;
+  font-size: 1.8rem;
 
+}
+.cont-menu{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 
+#conteneur22{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(90, 87, 87);
+}
 
+.suivant6_12{
+  color: #eee;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.suivant6_12 a{
+  text-transform: uppercase;
+  color: #eee;
+  background-color: rgb(11, 111, 224);
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
 
+}
 
+.suivant6_12 a:hover{
+  background-color: antiquewhite;
+  color: #000000;
+  box-shadow: 10px 10px 15px rgb(255, 255, 255);
+}
+.temoignages{
+  position: relative;
+  top: -200px;
+}
+.temoignages h1{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: wheat;
+ 
+  border-bottom: 2px solid rgb(255, 230, 0);
+}
+.temoignages--flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.temoignages--imd img{
+  width: 25%;
+  height: 40%;
+  border-radius: 30px;
+
+}
+.temoignages-cont{
+  padding: 2%;
+}
+.temoignages--flex{
+  display: flex;
+}
+.mon--paragraphe1{
+  color: rgb(255, 255, 255);
+  text-wrap: wrap;
+
+}
+.lien--direct a{
+  text-decoration: none;
+  background-color: rgb(26, 168, 173);
+  color: #000000;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+.temoignages-cont{
+  background: linear-gradient(45deg, #000000, #111, #ffffff, #b94242) ;
+}
 
 
 

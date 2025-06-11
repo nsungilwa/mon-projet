@@ -3,26 +3,53 @@
 body {
   margin: 0;
   font-family:'Roboto', sans-serif;
-  color: white;
-  background-color: #7a7a7a;
+  
+  background-color:rgb(57, 58, 59);
+
+  
   
 }
 header {
   background-image: url('profil\ 2.jpg');
-    height: 100vh;
-    display: flex;
+  height: 87vh;
+  display: flex;
   padding: 20px 0;
   text-align: center;
-}
+  justify-content: space-between;
+  padding: 2px 6%;
+  
+  
 
+}
+.logo{
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+  
+}
+.logo span{
+  color: aqua;
+}
 nav a {
   color: white;
   margin: 0 20px;
   text-decoration: none;
   font-weight: bold;
-  text-transform: lowercase;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+}
+nav a:hover{
+  color: aqua;
 }
 
+
+.h3--header{
+  color: rgb(255, 255, 255);
+}
 .hero {
 
   position: relative;
@@ -31,13 +58,15 @@ nav a {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  top: -450px;
 }
 
 .logo-circle {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(172, 163, 163, 0.6);
   border-radius: 50%;
   padding: 30px;
   margin-bottom: 20px;
+  z-index: 10;
 }
 
 .logo-circle h1 {
@@ -48,24 +77,16 @@ nav a {
 .hero h2 {
   font-size: 24px;
   margin: 10px 0;
-  color: #fff;
+  color: #ffffff;
 }
 
 .hero p {
-  color: #CDEFCF;
+  color: #ffffff;
   font-size: 14px;
   margin: 5px 0;
+  line-height: 1.3;
 }
 
-.hero button {
-  margin-top: 15px;
-  padding: 10px 20px;
-  background-color: white;
-  color: red;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-}
 
 .hero button:hover {
   background-color: #eee;
@@ -76,3 +97,137 @@ nav a {
   gap: 10px;
   padding: 10px;
 }
+.flex--header{
+
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+}
+.flex--header1{
+  background-color: red;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 10px;
+  position: relative;
+  left: -25px;
+  cursor: pointer;
+}
+
+.flex--header2{
+  background-color: red;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 10px;
+  position: relative;
+  left: 25px;
+  cursor: pointer;
+}
+.flex--header a:hover{
+  background-color: aliceblue;
+ 
+}
+
+.texte--bold{
+  text-transform: capitalize;
+  font-size: 1.7rem;
+}
+
+
+.platts{
+  
+  position: relative;
+  bottom: 310px;
+}
+.titre--texte{
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  justify-content: center;
+  text-align: center;
+  
+}
+.conteneur{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(57, 58, 59);
+ 
+  
+}
+.box{
+  width: 350px;
+  margin: 20px;
+  border: 20px solid #ffffff;
+  box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+
+}
+.imbox{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.imbox img{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.texte12{
+  text-align: center;
+  font-weight: 500;
+  color: #111;
+  background-color: #eee;
+  padding: 4px;
+  
+  
+
+}
+.texte12 h3, h4{
+  font-weight: 400;
+  color: #000000;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

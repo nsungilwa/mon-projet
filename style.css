@@ -166,9 +166,7 @@ nav a:hover{
   
 
 }
-html{
-  scroll-behavior: smooth;
-}
+
 .imbox{
   position: relative;
   width: 80%;
@@ -269,6 +267,7 @@ html{
 .temoignages{
   position: relative;
   top: -200px;
+  padding: 20px;
 }
 .temoignages h1{
   align-items: center;
@@ -280,48 +279,59 @@ html{
  
   border-bottom: 2px solid rgb(255, 230, 0);
 }
-.temoignages--flex{
-  display: flex;
-  flex-wrap: wrap;
-}
-.temoignages--imd img{
-  width: 25%;
-  height: 40%;
-  border-radius: 30px;
+.conteneur-temoignages{
 
-}
-.temoignages-cont{
-  padding: 2%;
-}
-.temoignages--flex{
   display: flex;
+  
+  
+  background: linear-gradient(44deg, #c9bfbf, #a87e7e, #eee, #d31818);
 }
-.mon--paragraphe1{
-  color: rgb(255, 255, 255);
-  text-wrap: wrap;
-
+.conteneur-temoignages{
+  padding: 25px;
 }
-.lien--direct a{
-  text-decoration: none;
-  background-color: rgb(26, 168, 173);
+.imbox--tem img{
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.box-temoignages p{
   color: #000000;
-  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1;
+  text-align:center;
+  
+  
+}
+
+.box-temoignages{
+  background-color: #a78282;
+  box-shadow: 10px 10px 32px rgba(255, 255, 255, 0.8);
   padding: 10px;
+  margin: 20px;
   border-radius: 20px;
+}
+.box-temoignages a{
+  background-color: #000000;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8rem;
+  border-radius: 12px;
+
 
 }
-.temoignages-cont{
-  background: linear-gradient(45deg, #000000, #111, #ffffff, #b94242) ;
+
+
+.box-temoignages a:hover{
+  background-color: aqua;
+  
 }
-
-
-
-
-
-
-
-
-
 
 
 

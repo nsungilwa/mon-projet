@@ -1,0 +1,100 @@
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(165, 179, 192);
+    }
+
+    .pages--pages{
+        display: flex;
+        position: relative;
+        top: 10px;
+    }
+    .pages--pages1{
+        margin: 14px;
+        
+    }
+    .pages--pages1 img{
+        width: 99%;
+        border-radius: 10px;
+        box-shadow: 10px  10px 12px rgba(0, 0, 0, 0.5);
+        height: 75%;
+        
+    }
+    .pages-aliments h2{
+        display: inline-block;
+        font-size: 1.8rem;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-left: 200px;
+        text-transform: uppercase;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        color: rgb(255, 0, 0);
+
+    }
+    .mon--pp{
+        position: relative;
+        margin-top: 70px;
+        background-color: aqua;
+        color: black;
+        padding: 10px;
+        width: 20%;
+        border-radius: 5px;
+
+    }
+
+    .pages--span span{
+        color: blue;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 2px solid rgb(255, 0, 0);
+        margin: 7px;
+        width: 70%;
+        font-size: 1.5rem;
+
+        
+    }
+.pages--span{
+    justify-content: center;
+    text-align: center;
+    
+        
+        
+ }
+ .cont--pages2{
+    display: flex;
+   
+ }
+ .flex-cont--pages2 img{
+    height: 30%;
+    width: 34%;
+    margin: 12px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 12px rgb(236, 52, 52);
+
+ }
+
+ .deuxieme--flex--pages{
+    position: relative;
+    left: -110px;
+ }
+ .deuxieme--flex--pages h2{
+    font-size: 1.6rem;
+    display: inline-block;
+    border-bottom: 3px solid rgb(0, 0, 0) ;
+    text-transform: uppercase;
+    
+
+ }
+ .deuxieme--flex--pages{
+    justify-content: center;
+    text-align: center;
+ }
+ .pages--div22 p{
+    border-radius: 12px;
+    padding: 15px;
+    background: linear-gradient(45deg, #c2b9b9, #e0d2d2, #0093c0, #ffffff);
+ }

@@ -16,7 +16,8 @@ body {
   color: white;
   font-weight: bold;
   background-image: url(profil\ 2.jpg);
-  opacity: 0.5;
+  
+  
   background-size: cover;
   
 }
@@ -26,20 +27,25 @@ header ul{
   justify-content: center;
   margin: 10px;
   color: white;
+  z-index: 20;
   background-color: #1e6458;
   padding: 13px;
   position: fixed;
   border-radius: 15px;
-  box-shadow: 4px 10px red;
+  box-shadow: 4px 10px rgb(255, 0, 0);
   
 }
 header{
   position: relative;
   right: -450px;
+  cursor: pointer;
+  
+  
 }
 header ul li a:hover{
-  color: red;
+  color: rgb(233, 11, 11);
   cursor: pointer;
+  font-weight: bold;
 
 }
 header ul li a{
@@ -50,6 +56,8 @@ header ul li a{
   font-weight:bold ;
   padding: 10px;
 }
+
+
 .header-h1 h1{
   font-size: 3.5rem;
   color: #ffffff;
@@ -65,6 +73,36 @@ header ul li a{
   position: relative;
   top: 5px;
   left: 20px;
+
+}
+.profil{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 110px;
+  left: 31%;
+}
+
+.cercle {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ff1111;
+  
+  
+}
+.profil a{
+  color: white;
+  font-weight: bold;
+  background-color: rgb(65, 64, 62);
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  position: relative;
+  left: 185px;
+  box-shadow: 30px 10px 40px rgb(255, 255, 255);
 }
 
 

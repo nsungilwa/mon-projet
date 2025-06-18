@@ -102,11 +102,34 @@ header ul li a{
   font-size: 1.5rem;
   position: relative;
   left: 185px;
-  box-shadow: 30px 10px 40px rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgb(255, 255, 255)
 }
+.profil a:hover{
+  background: #ffffff;
+  color: black;
+}
+.selon-lorem{
+  position: relative;
+  top: 220px;
+}
+.selon-lorem span{
+  color: #ff1111;
+  font-weight: bold;
+  font-size: 120px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.Lorem-h11{
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 54px;
 
 
-
+}
 
 
 

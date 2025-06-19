@@ -47,3 +47,14 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

@@ -130,6 +130,16 @@ html{
 
 
 }
+.selon-lorem p{
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  border-bottom: 4px solid red;
+  line-height: 1,9;
+ 
+}
+
 
 
 

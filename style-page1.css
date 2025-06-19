@@ -175,3 +175,37 @@ html{
 
   
 }
+button {
+  background-color:#1e6458;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #00e7c1;
+  color: #000000;
+  font-weight: bold;
+  box-shadow: 1px 1px 15px #00e7c1,
+             1px 1px 10px #00e7c1,
+            
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #1e6458;
+  border-radius: 5px;
+}
+.reservation {
+  padding: 30px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}

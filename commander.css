@@ -1,0 +1,84 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(32, 161, 75, 0.863);
+}
+.page-commender h4{
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid rgb(27, 27, 27);
+}
+.page-commender--flex {
+    display: flex;
+    justify-content: space-around;
+    bottom: -30px;
+    position: relative;
+}
+.page-flex11 h2{
+    position: relative;
+    align-items: center;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+
+}
+.page-flex11 p , .page-flex11 h5{
+    bottom: -25px;
+    position: relative;
+}
+.form-onputt--2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+form{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+form label{
+    text-transform: capitalize;
+}
+form input, select{
+    color: blue;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+form button{
+    padding: 5px;
+    color: black;
+    background: #a77777;
+    border-radius: 5px;
+    font-weight: bold;
+}
+form button:hover{
+    color: blue;
+    font-weight: bold;
+    background-color: rgb(33, 175, 175);
+}
+form a{
+    padding: 5px;
+    color: rgb(255, 0, 0);
+    background: #5c5050;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+
+
+}
+form a:hover{
+    color: blue;
+    font-weight: bold;
+    background-color: rgb(33, 175, 175);
+}

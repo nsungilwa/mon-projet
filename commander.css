@@ -82,3 +82,14 @@ form a:hover{
     font-weight: bold;
     background-color: rgb(33, 175, 175);
 }
+@media  screen and (max-width: 930px) {
+ .page-commender h4{
+    font-size: 15px;
+    border: none;
+
+ }
+ .page-commender--flex{
+    flex-direction: column;
+ }
+    
+}

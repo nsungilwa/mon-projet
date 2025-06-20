@@ -140,9 +140,45 @@ html{
  
 }
 
+.contact12 h1{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 
+}
 
+.contact12-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.flex--cont-1 i, .flex--cont-2 i , .flex--cont-3 i{
+  color: orange;
+  font-size: 2.4rem;
 
+}
+.flex--cont-3 p{
+  font-size: 1.6rem;
+  text-transform: capitalize;
+
+}
+.flex--cont-3 a{
+  color: #f8f3f3;
+  font-weight: bold;
+  background-color: rgb(8, 238, 0);
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.flex--cont-3 a:hover{
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 1px 1px 20px white;
+ 
+  
+}
 
 
 

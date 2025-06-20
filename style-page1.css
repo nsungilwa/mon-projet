@@ -211,37 +211,7 @@ input {
 }
 .plat22 h5 {
   position: relative;
-  left:90px;
-  font-size :16px;
-  top: -119px;
-}
-.plat22 h6 {
-  position: relative;
-  left:90px;
-  font-size :16px;
-  top: -119px;
-}
-.plat22 h7 {
-  position: relative;
-  left:90px;
-  font-size :16px;
-  top: -119px;
-}
-.plat22 h8 {
-  position: relative;
-  left:90px;
-  font-size :16px;
-  top: -119px;
-}
-.plat22 h9 {
-  position: relative;
-  left:90px;
-  font-size :16px;
-  top: -119px;
-}
-.plat22 h10 {
-  position: relative;
-  left:90px;
+  left: 40px;
   font-size :16px;
   top: -119px;
 }

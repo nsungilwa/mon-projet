@@ -48,7 +48,7 @@ form label{
     text-transform: capitalize;
 }
 form input, select{
-    color: blue;
+    color: rgb(10, 10, 10);
     padding: 10px;
     border-radius: 4px;
 }

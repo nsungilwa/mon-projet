@@ -30,7 +30,7 @@
             </div>
             <div class="form-onputt--2">
                 <h2>formulaire de commande</h2>
-                <form action="">
+                <form action="traitement.php" method="post">
 
                     <label for="name">nom complet</label> <br>
                     <input type="text" id="nom"name="nom" required br><br>
@@ -40,8 +40,7 @@
 
                     <label for="plat">plat a commande:</label><br>
                     <select id="plat"name="plat"required>
-                        <option value="">-- Choisir un plat --</option>
-                         
+                        <option value="">-- Choisir un plat --</option> 
                         <option value="frites-poulet">Frites + Poulet</option>
                         <option value="riz-haricots">Riz + Haricots</option>
                         <option value="saka-saka">Saka-Saka</option>
@@ -56,7 +55,7 @@
                     <textarea id="adresse" name="adresse" rows="3" required></textarea><br><br>
 
                     <button type="submit">Valider la commande</button> <br> <br> <br><br>
-                    <a href="#">payer</a>
+                    
                 </form>
 
             </div>

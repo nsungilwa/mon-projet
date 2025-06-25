@@ -109,6 +109,11 @@ html{
 
 
 }
+.img--img--e{
+  width: 40%;
+  height: 70%;
+  position: relative;
+}
 .section-plat-flex{
   background-color: rgb(250, 244, 244);
   width: 93%;

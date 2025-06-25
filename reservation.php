@@ -20,6 +20,5 @@
     $req->bindParam(':dates', $dates);
     $req->bindParam(':heure', $heure);
     $req->bindParam(':nombredepersonnes', $personnes);
-    
     $req->execute();
 ?>

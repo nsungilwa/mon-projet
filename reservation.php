@@ -3,7 +3,7 @@
     $noms = $_POST['nom'];
     $dates = $_POST['dates'];
     $heure = $_POST['heure'];
-    $nombredepersonnes = $_POST['personnes'];
+    $personnes = $_POST['personnes'];
     
 
     try{
@@ -15,10 +15,11 @@
     }
 
     //Requête pour inserer les données
-    $req = $bdd->prepare("INSERT INTO reservation (noms, dates, heure, nombredepersonnes) VALUES(:noms, :dates, :heure, :personnes)");
+    $req = $bdd->prepare("INSERT INTO reservation(noms, dates, heures, personnes) VALUES(:noms, :dates, :heures, :personnes)");
     $req->bindParam(':noms', $noms);
     $req->bindParam(':dates', $dates);
-    $req->bindParam(':heure', $heure);
-    $req->bindParam(':nombredepersonnes', $personnes);
+    $req->bindParam(':heures', $heure);
+    $req->bindParam(':personnes', $personnes);
+
     $req->execute();
 ?>

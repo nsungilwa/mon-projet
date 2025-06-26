@@ -95,7 +95,7 @@ header ul li a{
 .profil a{
   color: white;
   font-weight: bold;
-  background-color: rgb(65, 64, 62);
+  background-color: rgb(12, 75, 36);
   padding: 10px;
   border-radius: 10px;
   text-transform: capitalize;
@@ -185,6 +185,36 @@ footer {
   text-align: center;
   padding: 10px;
 
+}
+@media (max-width: 768px) {
+  .profil, .contact12-flex {
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+  }
+
+  .cercle {
+    width: 280px;
+    height: 280px;
+  }
+
+  .profil a {
+    left: 0;
+    margin-top: 10px;
+  }
+
+  .selon-lorem span {
+    font-size: 60px;
+  }
+
+  .Lorem-h11 {
+    font-size: 28px;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 

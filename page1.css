@@ -205,18 +205,45 @@ input {
 }
 #special-prix{
   position: relative;
-  left: -100px;
+  left: -99px;
 }
-
-@media (max-width: 768px) {
+#special-prix1{
+  position:relative
+  left -99px;
+}
+  @media (max-width: 768px) {
   header {
     right: 0;
   }
-
   header ul {
     flex-direction: column;
     align-items: center;
   }
+.profille-centre {
+    width: 90%;
+    left: 0;
+    margin: auto;
+    padding: 20px;
+  }
 
+  .section-plat-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .plat22,
+  .plat22 a {
+    left: 0;
+  }
 
-}
+  .plat-image img{
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+  }
+
+  input, button {
+    width: 100%;
+      }  
+    
+
+}  

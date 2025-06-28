@@ -8,7 +8,7 @@
 
     try{
         $bdd = new PDO("mysql:host=localhost;dbname=vente", "root", "");
-        echo "Merci pour votre commende , nous vous contacterons très bientot";
+        echo "Merci pour votre reservation , nous vous contacterons très bientot";
     }
     catch(Exception $e){
         die("Erreur : " .$e->getMessage());

@@ -215,7 +215,7 @@ input {
   header ul {
     flex-direction: column;
     align-items: center;
-    right:4%;
+    right: 2%;
   }
   .profille-centre {
     width: 90%;

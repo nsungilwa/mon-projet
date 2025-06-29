@@ -207,13 +207,15 @@ input {
   position:relative;
   left: -99px;
 }
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
   header {
     right: 0;
+    text-align: right;
   }
   header ul {
     flex-direction: column;
     align-items: center;
+    right:10%;
   }
   .profille-centre {
     width: 90%;
@@ -226,14 +228,15 @@ input {
     flex-direction: column;
     text-align: center;
   }
+
   .plat22,
   .plat22 a {
     left: 0;
   }
+
   .plat-image img{
     position: relative;
     left: 32px;
-
   }
 
  .plat-image{
@@ -241,11 +244,9 @@ input {
   position: relative;
   top: 30px;
  }
- 
-
   input, button {
     width: 100%;
-  }  
-    
 
-}  
+    
+  }
+}
